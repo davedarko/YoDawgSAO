@@ -1,0 +1,111 @@
+(footprint "fingerboard_trucks"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -14.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0c7e6358-ee6f-4f58-a205-456f06974b5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "fingerboard_trucks"
+		(at 0 -13.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dca1e46b-a172-4017-9d53-97902d25fb10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -14.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "969800ba-efa1-47b6-a102-899f73823468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -14.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c457da0c-657f-4441-87ab-0b9d92817fe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -14.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "760c8e3c-9558-466d-be61-d9cc3cfe1e23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 -11.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8e1105f0-610c-470b-a7d5-c32a6828168e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.75 -3.75)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2058de2c-2a24-4797-a3cd-37659122768d")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.75 3.75)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "abe3a1e9-6928-4ea2-98bb-299f2fcfedd0")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.75 -3.75)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "4ab8e55f-4509-4dcb-aabe-fd281d71cc1f")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.75 3.75)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "523915d0-1e0d-4416-a3e0-26980ff1af0d")
+	)
+)
